@@ -23,17 +23,23 @@ h1 {
     text-shadow:  2px 2px 0 #000;
     font-size: 3vw;
     padding: 0 10vmax;
+    
+    
 }
 
 button {
     position: fixed;
     left: 10%;
     bottom: 5%;
-    width: 10%;
+    min-width: 10%;
     height: 5%;
     border: none;
     border-radius: 10px;
     background-color: gold;
     color: black;
+    font-size: 1rem;
+    font-weight: 900;
     
 }
+
+

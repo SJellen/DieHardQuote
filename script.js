@@ -379,5 +379,15 @@ let num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'resources/'+num+'.png';
 document.body.style.backgroundSize = "cover";// Background repeat
 }
+
+
+const btn = document.querySelector(".button");
+
+btn.addEventListener("mouseover", function() {
+    this.textContent = "MotherFucker!";
+})
+btn.addEventListener("mouseout", function() {
+    this.textContent = "YIPPEE KI YAY";
+})
    
    
