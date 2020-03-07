@@ -29,16 +29,23 @@ h1 {
 
 button {
     position: fixed;
+    background-image: linear-gradient(to right bottom, #e65c00,#f9d423);
     left: 10%;
     bottom: 5%;
     min-width: 10%;
     height: 5%;
     border: none;
     border-radius: 10px;
-    background-color: gold;
+    /* background-color: gold; */
+    box-shadow: 5px 5px 5px black;
     color: black;
-    font-size: 1rem;
     font-weight: 900;
+    
+}
+button:hover {
+    background-image: linear-gradient(to right bottom, #c31432, #240b36);
+    color: white;
+    transition: ease-out 1s;
     
 }
 
