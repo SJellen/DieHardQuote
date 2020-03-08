@@ -12,10 +12,44 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    background-color: black;
+    
 }
+body {
+   background-color: #000;
+    animation: cssAnimation 1.5s ease-in-out 2000ms;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes cssAnimation {
+    from {
+       background: initial;
+       background: rgb(0,0,6);
+        background: linear-gradient(153deg, rgba(0,0,6,1) 50%, rgba(22,22,23,1) 98%, rgba(59,58,58,1) 100%, rgba(86,86,87,1) 100%);
+    }
+    to {
+        background: black;
+        background: rgb(0,0,6);
+        background: linear-gradient(153deg, rgba(0,0,6,1) 50%, rgba(22,22,23,1) 98%, rgba(59,58,58,1) 100%, rgba(86,86,87,1) 100%);
+       
+    }
+}
+@-webkit-keyframes cssAnimation {
+    from {
+        background-image: initial;
+    }
+    to {
+        background: rgb(0,0,6);
+        background: linear-gradient(153deg, rgba(0,0,6,1) 50%, rgba(22,22,23,1) 98%, rgba(59,58,58,1) 100%, rgba(86,86,87,1) 100%);
+       
+    }
+}
+
+
 
 h1 {
     color: hsl(var(--hue), 80%, var(--lumi, 63%));
+    
     font-family: "Archivo", sans-serif;
     font-weight: 600;
     font-style: italic;
@@ -26,6 +60,37 @@ h1 {
     
     
 }
+
+h1 {
+    visibility: hidden;
+    animation: cssH1 1s ease-in-out 2500ms;
+    animation-fill-mode: forwards;
+    
+}
+    
+
+@keyframes cssH1 {
+    from {
+        visibility: hidden;
+        
+        
+    }
+    to {
+        
+       visibility: visible;
+    }
+}
+@-webkit-keyframes cssH1 {
+    from {
+        visibility: hidden;
+    }
+    to {
+       visibility: visible;
+       
+    }
+}
+
+
 
 button {
     position: fixed;
@@ -44,8 +109,8 @@ button {
 }
 button:hover {
     background-image: linear-gradient(to right bottom, #c31432, #240b36);
-    color: white;
     transition: ease-out 1s;
+    color: white;
     
 }
 

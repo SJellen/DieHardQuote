@@ -378,6 +378,7 @@ function ChangeIt()
 let num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'resources/'+num+'.png';
 document.body.style.backgroundSize = "cover";// Background repeat
+
 }
 
 
