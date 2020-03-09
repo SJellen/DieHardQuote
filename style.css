@@ -17,7 +17,7 @@ body {
 }
 body {
    background-color: #000;
-    animation: cssAnimation 1.5s ease-in-out 2000ms;
+    animation: cssAnimation 1s ease-in-out 1500ms;
     animation-fill-mode: forwards;
     
 }
@@ -65,7 +65,7 @@ h1 {
 
 h1 {
     visibility: hidden;
-    animation: cssH1 1s ease-in-out 2500ms;
+    animation: cssH1 1s ease-in-out 2000ms;
     animation-fill-mode: forwards;
     
 }
@@ -129,6 +129,8 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    
+    
     button {
         width: 120px;
         
