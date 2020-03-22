@@ -3,6 +3,10 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
 </p>
 
+
+
+![duck hunt screenshot](https://github.com/SJellen/DieHardQuote/blob/master/screenshot.png)
+
 > A Die Hard quote generator.
 
 ### ✨ [Demo](https://die-hard-quote.now.sh/)
